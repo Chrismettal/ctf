@@ -19,6 +19,8 @@ Each game is put in its own directory, with "writeups" collected in this README.
 ## ctf-shittyaddon
 
 - Game: [ctf-shittyaddon](https://github.com/urish/ctf-shittyaddon)
+    - Hardware ctf running on an ATtiny85
+    - Focused on I2C, remote code execution, and a tiny bit of reversing (assumes access to source code though)
 - Solution: Jupyter workbook to be executed on a Raspberry Pi, talking to the SAO via `I2C`.
     - Actually executed remotely from a host machine.
     - VSCodium just installs and executes a code server on the remote Rpi
